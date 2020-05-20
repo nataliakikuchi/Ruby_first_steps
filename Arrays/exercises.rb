@@ -514,7 +514,7 @@ def check_array(nums)
          end
      i = i + 1
     end
-    return ((no3pair ^ no5pair) == 1)
+    return ((no3pair ^ no5pair) == 1) # ^XOR operator ->true se uma das condições for true. Se os dois forem true, vai retornar false.
  end
  print check_array([3, 3, 7, 5]),"\n"
  print check_array([3, 8, 5, 9]),"\n"
